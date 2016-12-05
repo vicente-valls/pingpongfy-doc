@@ -12,7 +12,7 @@ PingPongfy is an open source project to manage your ping pong tables at work. Is
 ## Architecture
 Following image represents the architecture of the application:
 
-![Architecture](https://goo.gl/photos/cM487mBLu4P4soJu5)
+![Architecture](https://s3.postimg.org/psw06okn7/architecture.png)
 
 ### Main components
 
