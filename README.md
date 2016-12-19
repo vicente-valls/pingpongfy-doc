@@ -33,4 +33,6 @@ In a nutshell:
   * Lambda:
     * invoked by dynamodb table changes will send a message to aws IoT (using https protocol).
 
+### Codebase
 
+* [Apigateway](https://github.com/vicente-valls/pingpongfy-apigateway)
