@@ -5,6 +5,7 @@ PingPongfy is an open source project to manage your ping pong tables at work. Is
 
 ### Product features
 * Real time status of the pingpong table: it shows who is playing right now.
+* TBD auto-remove users when no one is playing on the table (either from video or sound stream).
 * Browser notifications: configurable notifications for following cases:
   * Table is free.
   * You got a slot and other user join the table.
