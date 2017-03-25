@@ -9,7 +9,7 @@ Pingpongfy is **in development** right now.
 
 ### Product features
 * Real time status of the pingpong table:
-A ![single-board computer](https://en.wikipedia.org/wiki/Single-board_computer) called *Whisperer*, 
+A [single-board computer](https://en.wikipedia.org/wiki/Single-board_computer) called *Whisperer*, 
 records and analyzes sounds happening at the ping-pong table. 
 If the whisperer notices people are playing, it will call the API in order to update the table.
 * Possible Notifications whenever table status changes (free/busy):
