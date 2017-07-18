@@ -9,8 +9,7 @@ Pingpongfy is **in development** right now.
 
 ### Product features
 * Real time status of the pingpong table:
-A [single-board computer](https://en.wikipedia.org/wiki/Single-board_computer) called *Whisperer*, 
-records and analyzes sounds happening at the ping-pong table. 
+A [single-board computer](https://en.wikipedia.org/wiki/Single-board_computer) called *Whisperer* is responsible for keeping the status of the table updated. 
 If the whisperer notices people are playing, it will call the API in order to update the table.
 * Possible Notifications whenever table status changes (free/busy):
   * Browser notifications.
@@ -27,13 +26,11 @@ Following image represents the architecture of the application:
 
 In a nutshell these are the AWS components:
 
-* Serverless frontend: using cloudfront as cdn and s3 for serving html+js+css
-* AWS Cognito: used for signing/login process. It provides security layer to apigateway and the AWS IoT (used by websockets).
+* Serverless frontend: using cloudfront and s3 for serving html+js+css files.
 * Websocket service: aws IoT manages ws connections and pushes messages to browsers whenever table is updated.
 * Rest API: 
   * using apigateway to pre-process the request (caching, security). 
-  * Requests are authenticated using the aws cognito authorizer.
-  * Logic for apigateway can probably be encapsulated in a beanstalk app or in another lambda.
+  * Logic for apigateway can probably be encapsulated in a beanstalk app or in another lambda using serverless.
 * Storage:
   * DynamoDb Table for status for the table: 
     * dynamodb is great storage triggering events on data changes. Hence, API is decoupled from message system.
@@ -49,4 +46,3 @@ In a nutshell these are the AWS components:
 ### Codebase
 
 * [Apigateway](https://github.com/vicente-valls/pingpongfy-apigateway)
-* [API](https://github.com/vicente-valls/pingpongfy-api)
