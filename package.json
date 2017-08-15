@@ -1,0 +1,23 @@
+{
+  "name": "pingpongfy-doc",
+  "version": "1.0.0",
+  "description": "## Introduction PingPongfy is an open source project to manage your ping pong tables at work.  Isn't a waste time waiting for your turn to play?  With Pingpongfy not only you will know in real-time the state of the table  but also you will get notifications when table is free. Pingpongfy is **in development** right now.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp swagger-validation"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicente-valls/pingpongfy-doc.git"
+  },
+  "author": "vicente-valls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicente-valls/pingpongfy-doc/issues"
+  },
+  "homepage": "https://github.com/vicente-valls/pingpongfy-doc#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-swagger": "^1.0.1"
+  }
+}

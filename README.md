@@ -1,5 +1,7 @@
 # pingpongfy-doc
 
+[![Build Status](https://travis-ci.org/vicente-valls/pingpongfy-doc.svg?branch=master)](https://travis-ci.org/vicente-valls/pingpongfy-doc)
+
 ## Introduction
 PingPongfy is an open source project to manage your ping pong tables at work. 
 Isn't a waste time waiting for your turn to play? 
@@ -16,7 +18,12 @@ If the whisperer notices people are playing, it will call the API in order to up
   * Slack notifications.
   * And many more upon further development.
 
-## Architecture
+API is defined using by this [swagger](https://github.com/vicente-valls/blob/master/swagger.yml)
+
+## AWS solution
+Solution proposed using aws components:
+
+### Architecture
 Following image represents the architecture of the application:
 
 ![Architecture](https://github.com/vicente-valls/pingpongfy-doc/raw/master/img/main-schema.jpg
