@@ -18,7 +18,7 @@ If the whisperer notices people are playing, it will call the API in order to up
   * Slack notifications.
   * And many more upon further development.
 
-API is defined using by this [swagger](https://github.com/vicente-valls/blob/master/swagger.yml)
+API is defined by this [swagger](https://github.com/vicente-valls/blob/master/swagger.yml)
 
 ## AWS solution
 Solution proposed using aws components:
