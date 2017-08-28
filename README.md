@@ -20,6 +20,8 @@ If the whisperer notices people are playing, it will call the API in order to up
 
 API is defined by this [swagger](https://github.com/vicente-valls/blob/master/swagger.yml)
 
+Two implementations are proposed: one using aws and another one using firebase.
+
 ## AWS solution
 Solution proposed using aws components:
 
@@ -53,3 +55,20 @@ In a nutshell these are the AWS components:
 ### Codebase
 
 * [Apigateway](https://github.com/vicente-valls/pingpongfy-apigateway)
+
+## Firebase
+
+Firebase contains all the features for implementing project requirements:
+* [Real-time database](https://firebase.google.com/products/database/) & [Notifications](https://firebase.google.com/products/cloud-messaging/).
+* [Cloud functions](https://firebase.google.com/products/functions/) for running business logic on a server-less fashion.
+* [Single page app](https://firebase.google.com/products/hosting/).
+
+### Architecture
+
+Firebase provides all resources as services so there is no need for Cloudformation/Terraform deployments in order to provision resources.
+Moreover, keeping data updated on clients becomes more simple than with aws.
+![Architecture](https://github.com/vicente-valls/pingpongfy-doc/raw/master/img/firebase-architecture.jpg
+ "Architecture")
+ 
+### Codebase 
+* [API](https://github.com/vicente-valls/pingpongfy-firebase)
