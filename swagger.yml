@@ -134,7 +134,7 @@ paths:
                 items:
                   $ref: '#/definitions/Table'
   /tables/{tableId}:
-    # patch method would make more since but firebase does not support it though
+    # patch method would make more sense but firebase does not support it
     put:
       description: updates table status of certain table
       security:
