@@ -165,7 +165,7 @@ paths:
       parameters:
         - name: tableId
           in: path
-          type: number
+          type: string
           required: true
       responses:
         200:
