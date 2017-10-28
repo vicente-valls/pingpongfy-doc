@@ -55,6 +55,7 @@ In a nutshell these are the AWS components:
 ### Codebase
 
 * [Apigateway](https://github.com/vicente-valls/pingpongfy-apigateway)
+* [API](https://github.com/vicente-valls/pingpongfy-api)
 
 ## Firebase
 
