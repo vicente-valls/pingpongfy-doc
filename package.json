@@ -6,10 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/gulp swagger-validation"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vicente-valls/pingpongfy-doc.git"
-  },
+  "repository": "git+https://github.com/vicente-valls/pingpongfy-doc.git",
   "author": "vicente-valls",
   "license": "ISC",
   "bugs": {
@@ -18,6 +15,7 @@
   "homepage": "https://github.com/vicente-valls/pingpongfy-doc#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-swagger": "^1.0.1"
+    "gulp-swagger": "^1.0.1",
+    "superagent": "^3.8.3"
   }
 }
